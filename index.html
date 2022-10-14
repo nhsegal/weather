@@ -10,22 +10,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <label for="location-search">Pick a place:</label>
-    <input type="text" name="location-search" id="location-search">
-    <button>Get the weather!</button>
-    <h1 id="location"></h1>
+    <div id="search-container">
+        <label for="location-search">Enter a location:</label>
+        <input type="text" name="location-search" id="location-search" placeholder="City name">
+        <button>Get the weather!</button>
+    </div>
+    <div> Units:
+        <input type="radio" name="units" value="C" checked>C</input>
+        <input type="radio" name="units" value="F">F</input>
+    </div>
     <div id="temp"></div>
     <div id="myContainer"> 
-        <h1>City</h1>
+        <div id="location">City</div>
+        <div id="temperature">20&#176;</div>
+        <div id="feels-like">20&#176;</div>
+        <div id="high-low">H:25&#176; L:15&#176;</div>
+        <div id="weather-description">Cloudy</div>
        
-        <div>Current: 20 C. Feels like 22 C.</div>
-        <div>High / Low: 25 C / 15 C</div>
-        <div>Wind:as</div>
-        <div>Humidity</div>
-        <div> Units:
-            <input type="radio">C</input>
-            <input type="radio">F</input>
-        </div>
+       
     </div>
     <script src="main.js" defer></script>
 </body>
