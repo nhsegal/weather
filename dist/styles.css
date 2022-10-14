@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#myContainer {
+    border: 1px black solid;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+}
